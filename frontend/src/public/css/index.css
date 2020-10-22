@@ -1,0 +1,430 @@
+/*-----------------------------------------------Index.css-----------------------------------------------*/
+
+/*----------------- navbar index -----------------*/
+
+.myAppcont{
+  margin:0px;
+}    
+
+.nav_index{
+  background-color: #F0AD4E;
+}
+
+.nav_menu  {
+  background-color: #F0AD4E;
+}
+
+.collapse_index {
+  margin-left: 1250px;
+}
+
+/*----------------- botões navbar index -----------------*/
+
+.registar {
+  border-radius: 4px;
+  padding: 5px 15px 5px 15px;
+  margin: 5px 20px 5px 10px;
+  background-color: #F0AD4E;
+  color: white;
+  border:solid 2px #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.entrar {
+  border-radius: 4px;
+  padding: 5px 15px 5px 15px;
+  background-color: #CC6257;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 0px 5px 10px;
+  cursor: pointer;
+  border:solid 2px #CC6257;
+}
+
+/*----------------- imagem index -----------------*/
+
+.foto{
+  width: 80% !important;
+  margin-top:200px;
+}
+
+/*----------------- href -----------------*/
+
+a {
+  text-decoration:none;
+}
+
+a:hover{
+  color: white;
+  filter: brightness(105%);
+}
+  
+/*-----------------------------------------------Entrar.css-----------------------------------------------*/
+
+/*----------------- botões -----------------*/
+
+.login {
+  border-radius: 15px;
+  padding: 10px 120px;
+  background-color: #CC6257;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+.forget {
+    color: #3C92E7;
+    text-decoration: underline;
+    margin-left: 45px;
+}
+
+.registarconta {
+  border-radius: 15px;
+  padding: 10px 115px;
+  background-color: #F0AD4E;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+/*----------------- componente entrar -----------------*/
+
+.componente_entrar {
+  border-radius: 15px;
+  margin-top: 100px;
+  margin-left: 500px;
+  padding: 60px;
+  max-width: 500px;
+  opacity: 1;
+  -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.3);
+}
+  
+.cont_entrar {
+  margin-left: 60px;
+}
+
+.myform_ent{
+  margin-bottom: 15px;
+  margin-left: 50px;
+  width: 280px !important;
+}
+
+hr{
+  border-bottom: 0.1px solid #F66014;
+}
+
+/*-----------------------------------------------Registar.css-----------------------------------------------*/
+
+.mywrap {
+  width: 20%;
+}
+
+/*-----------------------------------------------Registar.css-----------------------------------------------*/
+ 
+.mywrap_menu {
+  width: 100%;
+  position: absolute;
+}
+
+/*----------------- botão -----------------*/
+
+.registarconta {
+  border-radius: 15px;
+  padding: 10px 100px;
+  background-color: #F0AD4E;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+  
+/*----------------- componente registar -----------------*/
+
+.myform_reg{
+  margin-bottom: 15px;
+  margin-left: 70px;
+  width: 235px !important;
+}
+
+.cont {
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.componente_registar {
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-left: 500px;
+  padding: 60px;
+  max-width: 500px;
+  opacity: 1;
+  -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.3);
+}
+
+h5{
+  font: Helvetica;
+  font-size: 15px;
+  margin-left: 70px;
+  padding-top: 5px;
+}
+
+/*-----------------------------------------------Menu.css-----------------------------------------------*/
+
+/*----------------- navbar menu -----------------*/
+
+.collapse_menu {
+  margin-left: 1370px;
+}
+
+/*----------------- botões navbar menu -----------------*/
+
+.sair{
+  border-radius: 4px;
+  padding: 5px 15px 5px 15px;
+  background-color: #CC6257;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 0px 5px 10px;
+  cursor: pointer;
+  border:solid 2px #CC6257;
+}
+
+/*----------------- sidebar menu -----------------*/
+  
+.myside {
+  position: absolute;
+  top: 65px;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+  
+.myside li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+  
+.myside li a {
+  display: block;
+  text-decoration: none;
+  color: #373A3C;
+}
+  
+.myside li a:hover {
+  text-decoration: none;
+  color: #373A3C;
+  background: #F0AD4E;
+}
+
+.comp-side{
+  flex-direction: column; 
+  max-width: 260px;
+  height: 100vh;
+  opacity: 1;
+  background-color: #f7dbb3;
+  -webkit-box-shadow: 0 10px 40px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+}
+
+/*----------------- botões sidebar menu -----------------*/
+
+.menu-link{
+  padding: 5px 52px 5px 52px;
+  background-color: #f3bf77;
+  color: black;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border:solid 2px #f3bf77;
+  margin: 1px 0px 1px -15px;
+  width:100%;
+}
+
+.menu-link2{
+  padding: 5px 15px 5px 15px;
+  background-color: #f3bf77;
+  color: black;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border:solid 2px #f3bf77;
+  margin: 1px 0px 1px -15px;
+  width:100%;
+}
+  
+/*-----------------------------------------------Adicionar.css-----------------------------------------------*/
+
+.form-control{
+  margin-right: 10px;
+}
+  
+.estran{
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+
+/*----------------- botão adicionar -----------------*/  
+
+.adicionar{
+  border-radius: 5px;
+  padding: 8px 15px;
+  background-color: #F0AD4E;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+/*----------------- forms adicionar -----------------*/  
+
+.espacoadicao{
+  padding-top: 5px;
+  padding-bottom:5px;
+}
+
+.form_nome{
+  margin-left: 25px;
+}
+
+.form_apelido{
+  margin-left: 14px;
+}
+
+/*----------------- sidebar -----------------*/
+
+.sidebar-btn{
+  margin: 10px;
+  background-color: #f3bf77;
+}
+
+.vl {
+  border-left: 6px solid #000000;
+  height: 500px;
+}
+
+/*----------------- componente adicionar -----------------*/ 
+  
+.comp-adicionar {
+  flex-direction: column; 
+  border-radius: 20px;
+  top: 15px;
+  left: 600px;
+  padding: 50px;
+  padding-bottom: 70px;
+  max-width: 500px;
+  right: 300px;  
+  color: #373A3C;
+  opacity: 1;
+  background: #fff;
+  position: relative; 
+  -webkit-box-shadow: 0 10px 40px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+}
+
+/*----------------- espaçamento form -----------------*/ 
+
+.espaco-form{
+  margin-left: 10px;
+}
+
+/*-----------------------------------------------Pesquisar.css-----------------------------------------------*/
+
+/*----------------- componente pesquisar -----------------*/ 
+  
+.comp {
+  flex-direction: column; 
+  border-radius: 20px;
+  top: 100px;
+  left: 500px;
+  padding: 50px;
+  padding-bottom: 300px;
+  max-width: 900px;
+  right: 800px;  
+  color: #373A3C;
+  opacity: 1;
+  background: #fff;
+  position: relative; 
+  -webkit-box-shadow: 0 10px 40px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+
+}
+
+h3{
+  font-size: 25px;
+  font-weight: bold;
+  color: #F0AD4E;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.form-group{
+font-size: 17px;
+}
+
+/*----------------- botão pesquisar -----------------*/  
+
+.pesquisar{
+  border-radius: 15px;
+  padding: 10px 115px;
+  background-color: #F0AD4E;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+.pesquisar:hover{
+  text-decoration: none;
+}
+
+/*-----------------------------------------------Pesquiresu.css-----------------------------------------------*/
+    
+/*----------------- botão adicionar -----------------*/  
+
+.eliminar{
+  border-radius: 5px;
+  padding: 8px 15px;
+  background-color: #CC6257;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px 2px;
+  cursor: pointer;
+}   
+
+   
+  

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 200" style="enable-background:new 0 0 300 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5277AE;}
+	.st1{fill:#FFFFFF;}
+</style>
+<image style="overflow:visible;enable-background:new    ;" width="300" height="200" xlink:href="E072CCCE.png"  transform="matrix(1 0 0 1 0 3.364146e-05)">
+</image>
+<circle class="st0" cx="150.5" cy="62.5" r="32.5"/>
+<image style="display:none;overflow:visible;enable-background:new    ;" width="111" height="83" id="Shape_1" xlink:href="E072CCD2.png"  transform="matrix(1 0 0 1 95 100)">
+</image>
+<path id="Rounded_Rectangle_1" class="st0" d="M105,104.9h91c5.5,0,10,4.9,10,11V172c0,6.1-4.5,11-10,11h-91c-5.5,0-10-4.9-10-11
+	v-56.1C95,109.8,99.5,104.9,105,104.9z"/>
+<path id="Polygon_1" class="st0" d="M205,112l8,71h-16L205,112z"/>
+<path id="Polygon_1-2" class="st0" d="M96,116l6,67H90L96,116z"/>
+<rect x="96.8" y="176.4" class="st0" width="15" height="6.6"/>
+<rect x="191" y="178.8" class="st0" width="8.8" height="4.2"/>
+<ellipse class="st0" cx="118.5" cy="116" rx="23.5" ry="15.3"/>
+<ellipse transform="matrix(0.9883 -0.1526 0.1526 0.9883 -15.6613 27.77)" class="st0" cx="173.1" cy="115.9" rx="31.9" ry="14.2"/>
+<ellipse transform="matrix(0.9999 -1.201704e-02 1.201704e-02 0.9999 -1.2112 1.7726)" class="st1" cx="146.9" cy="101.7" rx="14.7" ry="5.8"/>
+</svg>

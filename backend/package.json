@@ -1,0 +1,24 @@
+{
+  "name": "projeto_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "TechSwitchEVO",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "map-obj": "^4.1.0",
+    "pg": "^8.0.3",
+    "postgres": "^1.0.2",
+    "react": "^16.13.1",
+    "sequelize": "^5.22.3",
+    "sweetalert2": "^9.15.3"
+  }
+}

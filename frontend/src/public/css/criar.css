@@ -1,0 +1,324 @@
+/*-------------------------------------------------Criar.css-------------------------------------------------*/
+
+.mywrap_criar {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  padding: 10px;
+}
+
+/*---------------------- Sidebar -----------------------*/
+
+h4{
+  font-size: 17px;
+  font-weight: bold;
+  color: #F0AD4E;
+}
+
+.myside_criar {
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+    
+.myside_criar li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+    
+.myside_criar li a {
+  display: block;
+  text-decoration: none;
+  color: #373A3C;
+}
+    
+.myside_criar li a:hover {
+  text-decoration: none;
+  color: #373A3C;
+  background: #F0AD4E;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #555555 !important;
+}
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #ffffff;
+}
+
+.titulos-side{
+  margin-left: 10px;
+  font-weight: bold;
+  color: #555555;
+}
+
+.titulos2-side{
+  margin-left: 10px;
+  color: #555555;
+}
+
+/*---------------------- Checkbox Cor -----------------------*/
+
+.custom-checkbox{
+  margin: 0px 10px 0px 5px;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background: #F0AD4E !important;
+  border: none;
+}
+
+.custom-checkbox .custom-control-input:checked:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 1px #F0AD4E, 0 0 0 0.2rem rgba(255, 107, 44, 0.25);
+  border: none;
+}
+
+.custom-checkbox .custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 1px #F0AD4E, 0 0 0 0.2rem rgba(255, 107, 44, 0.25);
+  border: none;
+}
+
+.custom-checkbox .custom-control-input:active ~ .custom-control-label::before {
+  background: #F0AD4E; 
+  border: none;
+}
+
+/*----- Radio Cor -----*/
+
+.custom-radio{
+  margin: 0px 15px 0px 15px;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  background: #F0AD4E !important;
+  border: none;
+}
+
+.custom-radio .custom-control-input:checked:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 1px #F0AD4E, 0 0 0 0.2rem rgba(255, 107, 44, 0.25);
+  border: none;
+}
+
+.custom-radio .custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 1px #F0AD4E, 0 0 0 0.2rem rgba(255, 107, 44, 0.25);
+  border: none;
+}
+
+.custom-radio .custom-control-input:active ~ .custom-control-label::before {
+  background: #F0AD4E; 
+  border: none;
+}
+
+/*----- Projeto texto -----*/
+
+.proj-left{
+  padding-left: 10px;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+
+.proj{
+  font-weight: bold;
+  padding-top: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  color: #6E6E6E;
+  background: #ffffff;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+
+.proj-data{
+  padding-left: 10px;
+  padding-right: 25px;
+}
+
+.font-weight-bold{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+/*----- Select Form -----*/
+
+.form-control {
+  width:auto;
+  height: auto;
+  color: #6E6E6E;
+  font-weight: bold;
+  display:inline-block;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*----- Calendário -----*/
+
+.calen_inicio{
+  padding-left: 10px;
+}
+
+.calen_fim{
+  padding-left: 22px;
+}
+
+/*----- Separador Sidebar Conteudo -----*/
+
+.separador {
+  border-left: 1px solid #000000;
+  height: auto;
+}
+
+/*------------------- Fim da Sidebar --------------------*/
+
+/*------------------ Cartões conteúdo -------------------*/
+
+.mycarddeck{
+  padding: 15px;
+  width: 30em;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.mycard{
+  font-family: 'Roboto', sans-serif;
+  margin: 0px 25px 0px 25px;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.mycardtitle card-title{
+  color: #2B2B2B;
+  font-size: 25px;
+}
+
+.mycardimg{
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 300px;
+}
+
+.titulos{
+    font-weight: bold;
+    font-size: 15px;
+    color: #2B2B2B;
+    margin-top: 10px;
+}
+
+.subtitulos{
+    font-size: 15px;
+    color: #2B2B2B;
+}
+
+.btn-warning{
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.card-qualif{
+    font-family: 'Roboto', sans-serif;
+    background: #EE9800;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.card-proj{
+    font-family: 'Roboto', sans-serif;
+    background: #CC6257;
+    border-radius: 5px;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 5px;
+}
+
+
+/*-------------------- Index --------------------*/
+
+.titulo-index{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    color: #F66014;
+}
+
+.btn-light{
+    border-radius: 15px;
+    margin-right: 15px;
+    float: right;
+}
+
+/*-------------------- Sidebar Agrupamento --------------------*/
+
+.criar_sidedata_inicio{
+  margin-bottom: 10px;
+}
+
+.criar_sidematswitch{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.vl{
+  border-left: 1px solid black;
+  height: 100vh;
+}    
+/*
+body{
+  background-color: #F0AD4E;
+}
+*/
+.comp-criar{
+  flex-direction: column; 
+  padding: 20px;
+  padding-bottom: 70px;
+  max-width: 500px;
+margin: -10px 0px 0px -10px; 
+  color: #373A3C;
+  opacity: 1;
+  background: #FDF8E3;
+  position: relative; 
+  -webkit-box-shadow: 0 10px 40px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+}
+    
+/*-------------------- Sidebar Links --------------------*/
+
+.criar-link{
+  padding: 5px 40px 5px 40x;
+  background-color: #f3bf77;
+  color: black;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border:solid 2px #f3bf77;
+  margin: 1px 0px 1px -20px;
+  width:100%;
+}
+
+    
+   
+  
+    
+    
+    
+   
+    
+    
+   
+  
